@@ -46,9 +46,9 @@ class Veiculo:
 
 def main():
     veiculos = [
-        Veiculo("ABC1234", "Fuscão", 150),
-        Veiculo("DEF5678", "Bellina", 120),
-        Veiculo("GHI9012", "Kombi", 200)
+        Veiculo("ABC1234", "Fuscão", 100),
+        Veiculo("DEF5678", "Bellina", 200),
+        Veiculo("GHI9012", "Kombi", 300)
     ]
 
     print("Veículos disponíveis:")
@@ -88,3 +88,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
